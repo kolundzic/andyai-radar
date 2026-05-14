@@ -1,0 +1,28 @@
+{
+  "name": "andyai-radar",
+  "version": "2.4.0",
+  "private": true,
+  "description": "AndyAI Radar — Signal Intelligence for the AI Stack",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "verify:routes": "node scripts/verify-next-routes.mjs",
+    "verify": "node scripts/verify-next-routes.mjs && npm run build"
+  },
+  "dependencies": {
+    "next": "15.3.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "lucide-react": "0.468.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.0.0",
+    "@types/react": "19.0.0",
+    "@types/react-dom": "19.0.0",
+    "autoprefixer": "10.4.20",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.7.2"
+  }
+}

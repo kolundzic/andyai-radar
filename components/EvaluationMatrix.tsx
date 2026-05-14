@@ -1,0 +1,4 @@
+import { repoMatrix } from "@/lib/data";
+export function EvaluationMatrix() {
+  return <div className="overflow-hidden rounded-3xl border border-white/10"><div className="hidden grid-cols-5 bg-white/10 px-4 py-3 text-xs font-semibold uppercase tracking-wide text-slate-300 md:grid"><div>Repo</div><div>Layer</div><div>Value</div><div>Risk</div><div>Decision</div></div><div className="divide-y divide-white/10">{repoMatrix.map((row)=><div key={row.name} className="grid gap-2 px-4 py-4 text-sm md:grid-cols-5"><div className="font-semibold text-white">{row.name}</div><div className="text-slate-300">{row.layer}</div><div className="text-slate-300">{row.value}</div><div className="text-slate-300">{row.risk}</div><div className="font-semibold text-radar-blue">{row.decision}</div></div>)}</div></div>;
+}

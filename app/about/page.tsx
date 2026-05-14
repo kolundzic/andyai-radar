@@ -1,0 +1,2 @@
+import { Section } from "@/components/Section";
+export default function AboutPage() { return <Section eyebrow="About" title="Created by Andrija Kolundzic (Andy) / Japan IT Business in collaboration with AndyAI.ai."><p className="max-w-3xl leading-8">AndyAI Radar is part of the broader AndyAI.ai ecosystem focused on governed AI production, human authority, evidence, signal intelligence, repeatable workflows and responsible AI infrastructure.</p></Section>; }

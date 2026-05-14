@@ -1,0 +1,5 @@
+import Link from "next/link";
+import { site } from "@/lib/data";
+export function Hero() {
+  return <section className="radar-grid relative overflow-hidden px-5 py-24"><div className="mx-auto max-w-7xl"><div className="max-w-4xl"><p className="mb-5 text-sm font-semibold uppercase tracking-[0.3em] text-radar-blue">Signal Intelligence for the AI Stack</p><h1 className="text-5xl font-semibold tracking-tight text-white md:text-7xl">{site.name}</h1><p className="mt-6 text-3xl font-semibold text-white md:text-5xl">Track the AI stack. <br /> Filter the hype. <br /> Build with governance.</p><p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">{site.description}</p><div className="mt-8 flex flex-wrap gap-3"><Link href="/reports/top-ai-repos-2026" className="rounded-full bg-radar-blue px-5 py-3 text-sm font-semibold text-radar-navy">Read the 2026 Radar Report</Link><Link href="/stack-map" className="rounded-full border border-white/20 px-5 py-3 text-sm font-semibold text-white">Explore the AI Stack Map</Link></div></div></div></section>;
+}

@@ -1,0 +1,14 @@
+import { Section } from "@/components/Section";
+import { EvaluationMatrix } from "@/components/EvaluationMatrix";
+import { CTA } from "@/components/CTA";
+
+export default function TopAIRepos2026Page() {
+  return <>
+    <section className="radar-grid px-5 py-20"><div className="mx-auto max-w-7xl"><p className="mb-4 text-xs font-semibold uppercase tracking-[0.25em] text-radar-blue">AndyAI Radar Report</p><h1 className="max-w-5xl text-5xl font-semibold tracking-tight text-white md:text-7xl">Top AI Repos 2026</h1><p className="mt-5 max-w-3xl text-2xl font-semibold text-slate-200">From open-source hype list to governed AI stack map.</p><p className="mt-6 max-w-4xl text-lg leading-8 text-slate-300">The most important AI repositories of 2026 are not just popular developer tools. They are signals showing where the AI stack is moving: local models, RAG engines, agent frameworks, workflow automation, self-hosted AI, terminal agents and action systems.</p></div></section>
+    <Section eyebrow="Executive Summary" title="AI development is no longer centered around one model or one chatbot."><p className="max-w-4xl leading-8">The modern AI stack is becoming layered: models, local runtimes, user interfaces, RAG/context engines, agent logic, workflow automation, app builders, developer cockpits and action agents. AndyAI Radar evaluates these signals through stack position, business value, risk surface, integration priority and human-governed production readiness.</p></Section>
+    <Section eyebrow="Evaluation Matrix" title="Public Repo Evaluation Matrix"><EvaluationMatrix /></Section>
+    <Section eyebrow="Priority Map" title="What should be tested first?"><div className="grid gap-4 md:grid-cols-4">{[["P0","RAGFlow + LangGraph","Evidence and controlled agent execution."],["P1","n8n + Ollama/Open WebUI + Dify","Practical demos and client pilots."],["P2","Gemini CLI + Langflow + DeepSeek-V3","Watch, research and prototype."],["Red Zone","OpenClaw-style agents","Governed only: sandbox, approval, audit, rollback."]].map(([label,title,text])=><article key={label} className="rounded-2xl border border-white/10 bg-white/[0.03] p-5"><p className="text-xs font-semibold uppercase tracking-[0.2em] text-radar-blue">{label}</p><h3 className="mt-3 text-lg font-semibold text-white">{title}</h3><p className="mt-3 text-sm leading-6 text-slate-300">{text}</p></article>)}</div></Section>
+    <Section eyebrow="Governance Lens" title="No AI tool enters the roadmap because it is popular."><p className="max-w-4xl leading-8">It enters only after signal review, stack classification, business value test, risk and permission review, evidence check and human approval.</p></Section>
+    <Section eyebrow="Next Step" title="Need help deciding which AI tools are worth testing?"><CTA /></Section>
+  </>;
+}
