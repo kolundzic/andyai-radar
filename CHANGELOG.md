@@ -28,3 +28,12 @@
 - Built Governance visual page.
 - Added Risk Register, Permission Matrix and Red Zone visual routes.
 - Added mobile-friendly governance and risk components.
+
+## v2.4.1 — Security Deploy Fix for Vercel Production
+
+- Updated Next.js from 15.3.0 to 15.3.6.
+- Updated React and React DOM from 19.0.0 to 19.0.1.
+- Kept Tailwind on stable v3.4.17 line.
+- Verified routes and production build locally.
+- Ensured `.next/` and `node_modules/` remain ignored and are not committed.
+- Intended to unblock Vercel production deployment after React Server Components security enforcement.
