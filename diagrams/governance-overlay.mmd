@@ -1,0 +1,14 @@
+flowchart TD
+    A[AI Tool] --> B{What can it access?}
+    B --> C[Public Data]
+    B --> D[Private Files]
+    B --> E[Credentials / APIs]
+    B --> F[Shell / Browser / Apps]
+    C --> G[Low Risk: Log Source]
+    D --> H[Medium/High: Approval Required]
+    E --> I[High: Secret Policy Required]
+    F --> J[Critical: Red Zone]
+    J --> K[Sandbox]
+    K --> L[Audit Log]
+    L --> M[Human Approval]
+    M --> N[Rollback / Kill Switch]

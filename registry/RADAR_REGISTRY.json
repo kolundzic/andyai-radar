@@ -1,0 +1,41 @@
+{
+  "registry_version": "v2.1.0",
+  "project": "AndyAI Radar",
+  "owner": "Andrija Kolundzic (Andy) / Japan IT Business",
+  "ai_system_partner": "AndyAI.ai",
+  "main_domain": "andyai.ai",
+  "website": "radar.andyai.ai",
+  "signals": [
+    {
+      "signal_id": "RADAR-2026-05-14-001",
+      "date": "2026-05-14",
+      "title": "Top AI GitHub Repositories 2026",
+      "source_type": "PDF / Article",
+      "category": "AI Stack Signal",
+      "stack_layers": [
+        "Model",
+        "Runtime",
+        "UI",
+        "RAG",
+        "Agent Logic",
+        "Workflow Automation",
+        "Product Builder",
+        "Developer Cockpit",
+        "Action Agent"
+      ],
+      "business_value_score": 5,
+      "risk_score": 4,
+      "andyai_integration_value": 5,
+      "decision": "TEST_AND_MAP",
+      "keywords": [
+        "#AndyAI",
+        "#AndyAIRadar",
+        "#AIStack",
+        "#GitHubRepos",
+        "#AIGovernance"
+      ],
+      "next_action": "Public report + website implementation",
+      "handoff_summary": "Initial Top AI Repos 2026 signal converted into Radar evaluation, stack map, governance lens, business use cases and service package structure."
+    }
+  ]
+}

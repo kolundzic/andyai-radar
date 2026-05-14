@@ -1,0 +1,15 @@
+flowchart TD
+    A[New AI Repo] --> B{Can it act on files, shell, browser, apps or accounts?}
+    B -->|No| C[Standard Evaluation]
+    B -->|Yes| D[Red Zone Classification]
+    D --> E{Sandbox available?}
+    E -->|No| F[GOVERNED ONLY / Do not integrate]
+    E -->|Yes| G{Permission limits clear?}
+    G -->|No| F
+    G -->|Yes| H{Audit logs available?}
+    H -->|No| F
+    H -->|Yes| I{Human approval before action?}
+    I -->|No| F
+    I -->|Yes| J{Rollback / kill switch defined?}
+    J -->|No| F
+    J -->|Yes| K[Controlled Lab Test]

@@ -1,0 +1,22 @@
+# Website Route Map
+
+- `/`
+- `/reports`
+- `/reports/top-ai-repos-2026`
+- `/stack-map`
+- `/matrix`
+- `/governance`
+- `/governance/risk-register`
+- `/governance/permission-matrix`
+- `/governance/red-zone`
+- `/services`
+- `/services/ai-stack-radar-report`
+- `/services/private-knowledge-assistant`
+- `/services/ai-workflow-automation`
+- `/services/local-private-ai-lab`
+- `/services/governed-agent-prototype`
+- `/services/client-ai-app-prototype`
+- `/services/action-agent-safety-review`
+- `/registry`
+- `/ecosystem`
+- `/about`
