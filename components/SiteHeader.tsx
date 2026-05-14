@@ -1,13 +1,12 @@
 import Link from "next/link";
 
 const links = [
-  ["Reports", "/reports/top-ai-repos-2026"],
-  ["Stack Map", "/stack-map"],
-  ["Matrix", "/matrix"],
-  ["Governance", "/governance"],
-  ["Services", "/services"],
-  ["Registry", "/registry"],
-  ["About", "/about"]
+  ["AI Pregled", "/ai-pregled"],
+  ["Usluge", "/services"],
+  ["Primeri", "/primeri"],
+  ["Bezbednost", "/governance"],
+  ["Pojmovnik", "/pojmovnik"],
+  ["Kontakt", "/kontakt"]
 ];
 
 export function SiteHeader() {

@@ -59,3 +59,16 @@
 - Added service package and registry data models.
 - Added reusable service and registry visual components.
 - Updated route/component verification.
+
+## v2.5.1 — Serbian Client Clarity + Offer Simplification
+
+- Rewrote public homepage in Serbian client-friendly language.
+- Added clearer navigation: AI Pregled, Usluge, Primeri, Bezbednost, Pojmovnik, Kontakt.
+- Added three simplified client offers:
+  - AI Pregled za firmu
+  - AI Asistent za vaše dokumente
+  - AI Automatizacija posla
+- Added Serbian glossary translating technical AI terms into ordinary client language.
+- Added `/ai-pregled`, `/primeri`, `/pojmovnik`, `/kontakt`.
+- Added simplified service pages for the three main offers.
+- Kept technical/governance pages as expert layers, not primary sales language.
