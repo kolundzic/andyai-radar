@@ -3,10 +3,10 @@
 | Field | Value |
 |---|---|
 | Project | AndyAI Radar |
-| Version | v2.4.2 |
+| Version | v2.5.0 |
 | Date | 2026-05-14 |
 | Repo | kolundzic/andyai-radar |
 | Domain | radar.andyai.ai |
-| Build Status | Vercel builder forced to Next.js |
-| Route QA | Guarded before deploy |
-| Notes | Previous output used @vercel/static-build and generated 404-only routes |
+| Build Status | Pending local proof |
+| Route QA | Pending local proof |
+| Notes | Services + Registry Visual Pages apply script |

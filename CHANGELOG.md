@@ -43,3 +43,19 @@
 - Added `vercel.json` to force the Vercel Next.js builder.
 - Diagnosed previous Vercel output as static-build / 404-only.
 - Added prebuilt-output guard before production deploy.
+
+## v2.5.0 — Services + Registry Visual Pages
+
+- Added polished `/services` landing page.
+- Added six service package detail pages:
+  - AI Stack Radar Report
+  - Private Knowledge Assistant Starter
+  - AI Workflow Automation Starter
+  - Local Private AI Lab Setup
+  - Governed Agent Prototype
+  - Action-Agent Safety Review
+- Added `/registry` visual page.
+- Added Signal Intake, Evaluation Flow and Radar Record Template pages.
+- Added service package and registry data models.
+- Added reusable service and registry visual components.
+- Updated route/component verification.
