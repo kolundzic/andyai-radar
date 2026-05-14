@@ -37,3 +37,9 @@
 - Verified routes and production build locally.
 - Ensured `.next/` and `node_modules/` remain ignored and are not committed.
 - Intended to unblock Vercel production deployment after React Server Components security enforcement.
+
+## v2.4.2 — Force Vercel Next.js Builder
+
+- Added `vercel.json` to force the Vercel Next.js builder.
+- Diagnosed previous Vercel output as static-build / 404-only.
+- Added prebuilt-output guard before production deploy.

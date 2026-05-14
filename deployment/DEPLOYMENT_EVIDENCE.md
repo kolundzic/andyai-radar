@@ -3,13 +3,10 @@
 | Field | Value |
 |---|---|
 | Project | AndyAI Radar |
-| Version | v2.4.1 |
+| Version | v2.4.2 |
 | Date | 2026-05-14 |
 | Repo | kolundzic/andyai-radar |
 | Domain | radar.andyai.ai |
-| Commit |  |
-| Tag | v2.4.1 |
-| Vercel URL |  |
-| Build Status | Passed locally |
-| Route QA | Passed locally |
-| Notes | Security deploy fix: patched Next.js/React versions and confirmed clean source-only commit |
+| Build Status | Vercel builder forced to Next.js |
+| Route QA | Guarded before deploy |
+| Notes | Previous output used @vercel/static-build and generated 404-only routes |
